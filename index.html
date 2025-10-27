@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohd Asif | Software Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <a href="#home">MA</a>
+                </div>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="nav-toggle">
+                    <i class="fas fa-bars" id="menu-icon"></i>
+                    <i class="fas fa-times" id="close-icon"></i>
+                </div>
+                <button class="theme-toggle" id="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <p class="hero-greeting">Hello, I'm</p>
+                    <h1 class="hero-name" id="typewriter"></h1>
+                    <p class="hero-title">Computer Science Student & Full-Stack Developer</p>
+                    <p class="hero-description">
+                        Energetic and innovative Computer Science student with a solid foundation in full-stack development and competitive programming. Passionate about leveraging emerging technologies to drive digital transformation.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                        <a href="#" class="btn btn-download" id="download-resume">
+                            <i class="fas fa-download"></i> Resume
+                        </a>
+                    </div>
+                    <div class="hero-social">
+                        <a href="https://www.linkedin.com/in/mohd-asif-b6065b336/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/MohdAsif264" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="mailto:asifpathan1072003@gmail.com"><i class="fas fa-envelope"></i></a>
+                        <a href="tel:+919151680301"><i class="fas fa-phone"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-wrapper">
+                        <img src="Image.jpg" alt="Mohd Asif" class="profile-img">
+                        <div class="image-overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#about"><i class="fas fa-chevron-down"></i></a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Let me introduce myself</h3>
+                    <p>
+                        I'm a Computer Science student at Dr. A.P.J Abdul Kalam Technical University with a passion for building optimized web and mobile solutions. My expertise lies in full-stack development, where I focus on creating seamless user experiences and efficient API integrations.
+                    </p>
+                    <p>
+                        I have demonstrated ability in building responsive and dynamic web applications using modern tools and frameworks. I'm passionate about leveraging emerging technologies to drive digital transformation, especially in digital publishing and mobile applications.
+                    </p>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <span class="info-label">Name:</span>
+                            <span class="info-value">Mohd Asif</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Location:</span>
+                            <span class="info-value">Lucknow, India</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Education:</span>
+                            <span class="info-value">B.Tech CSE</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Email:</span>
+                            <span class="info-value">asifpathan1072003@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <h3>Internship & Training</h3>
+                    <div class="internship-card">
+                        <div class="internship-header">
+                            <h4>3 SKILL FULLSTACK DEVELOPMENT</h4>
+                            <span class="date-badge">Aug 2025 - Sept 25</span>
+                        </div>
+                        <ul class="internship-details">
+                            <li><i class="fas fa-check-circle"></i> Acquired practical experience in frontend & backend web technologies</li>
+                            <li><i class="fas fa-check-circle"></i> Developed responsive and dynamic web applications using modern tools</li>
+                            <li><i class="fas fa-check-circle"></i> Strengthened knowledge of REST APIs, databases, and deployment workflows</li>
+                            <li><i class="fas fa-check-circle"></i> Enhanced technical problem-solving and collaboration skills</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-content">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Programming & Development</h3>
+                    <div class="skill-bars">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Java</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Python</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>JavaScript</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>React.js</span>
+                                <span>88%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="88"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Node.js & Express</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>MySQL</span>
+                                <span>82%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="82"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Other Skills</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">TypeScript</span>
+                        <span class="skill-tag">Git & GitHub</span>
+                        <span class="skill-tag">Agile & Scrum</span>
+                        <span class="skill-tag">Data Structures</span>
+                        <span class="skill-tag">Algorithms</span>
+                        <span class="skill-tag">Competitive Programming</span>
+                        <span class="skill-tag">Debugging</span>
+                        <span class="skill-tag">Microsoft Office</span>
+                        <span class="skill-tag">Software Testing</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card" data-aos="fade-up">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/600x400" alt="Safarnama">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Safarnama | Travel & Blogging Platform</h3>
+                        <p class="project-date">Dec 2024 - Jan 25</p>
+                        <p>A travel and blogging platform built using React.js and Bootstrap, designed for seamless content sharing and an engaging user experience.</p>
+                        <ul class="project-features">
+                            <li>Enhanced performance through lazy loading</li>
+                            <li>Optimized Firebase image storage for reduced bandwidth</li>
+                            <li>Implemented skeleton loading and notifications</li>
+                            <li>Protected routes for better security</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span class="tech-badge">React.js</span>
+                            <span class="tech-badge">Bootstrap</span>
+                            <span class="tech-badge">Firebase</span>
+                            <span class="tech-badge">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card" data-aos="fade-up">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/600x400" alt="ChatPass">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>ChatPass | AI-Powered Ticketing System</h3>
+                        <p class="project-date">Aug 2024 - Oct 24</p>
+                        <p>An AI-powered chatbot-based ticketing system built using JavaScript, React.js, and Dialogflow, designed to streamline ticket bookings.</p>
+                        <ul class="project-features">
+                            <li>AI chatbot for smooth ticket booking and management</li>
+                            <li>Intuitive conversational experience</li>
+                            <li>Secure payment processing integration</li>
+                            <li>Backend system for accurate ticket issuance</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span class="tech-badge">React.js</span>
+                            <span class="tech-badge">JavaScript</span>
+                            <span class="tech-badge">Dialogflow</span>
+                            <span class="tech-badge">Node.js</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education" id="education">
+        <div class="container">
+            <h2 class="section-title">Education & Certifications</h2>
+            <div class="education-content">
+                <div class="edu-card">
+                    <div class="edu-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Bachelor of Technology</h3>
+                    <h4>Computer Science and Engineering</h4>
+                    <p class="edu-university">Dr. A.P.J Abdul Kalam Technical University, India</p>
+                    <p class="edu-period">2021 - 2025</p>
+                </div>
+            </div>
+
+            <div class="certifications">
+                <h3 class="cert-title">Certifications</h3>
+                <div class="certs-grid">
+                    <div class="cert-card">
+                        <i class="fas fa-certificate"></i>
+                        <h4>Java Foundations</h4>
+                        <p>Lets Upgrade</p>
+                    </div>
+                    <div class="cert-card">
+                        <i class="fas fa-certificate"></i>
+                        <h4>Database Programming with SQL</h4>
+                        <p>ORACLE</p>
+                    </div>
+                    <div class="cert-card">
+                        <i class="fas fa-certificate"></i>
+                        <h4>React Bootcamp</h4>
+                        <p>Lets Upgrade</p>
+                    </div>
+                    <div class="cert-card">
+                        <i class="fas fa-certificate"></i>
+                        <h4>JavaScript Bootcamp</h4>
+                        <p>Lets Upgrade</p>
+                    </div>
+                    <div class="cert-card">
+                        <i class="fas fa-certificate"></i>
+                        <h4>DSA with Java</h4>
+                        <p>Apna College</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section class="achievements" id="achievements">
+        <div class="container">
+            <h2 class="section-title">Achievements & Extracurriculars</h2>
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>Smart India Hackathon 2024</h3>
+                    <p>Participated in one of India's largest hackathons, solving real-world problems with innovative tech solutions.</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <h3>Ideathon'23</h3>
+                    <p>Secured a <strong>Top 25 position</strong> among 200+ participants by proposing an innovative solution.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>asifpathan1072003@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+91 9151680301</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Lucknow, India</p>
+                        </div>
+                    </div>
+                    <div class="contact-social">
+                        <a href="https://linkedin.com/in/asifpathan" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/asifpathan" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="mailto:asifpathan1072003@gmail.com"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Mohd Asif. All rights reserved.</p>
+            <p>Built with <i class="fas fa-heart"></i> using HTML, CSS & JavaScript</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
