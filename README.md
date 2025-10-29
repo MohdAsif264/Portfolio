@@ -147,8 +147,8 @@ This project is open source and available under the MIT License.
 
 **Mohd Asif**
 - Email: asifpathan1072003@gmail.com
-- LinkedIn: [linkedin.com/in/asifpathan](https://linkedin.com/in/asifpathan)
-- GitHub: [github.com/asifpathan](https://github.com/asifpathan)
+- LinkedIn: [linkedin.com/in/Mohd Asif](https://www.linkedin.com/in/mohd-asif-b6065b336/)
+- GitHub: [github.com/MohdAsif264](https://github.com/MohdAsif264)
 - Location: Lucknow, India
 
 ## 🙏 Acknowledgments
